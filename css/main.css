@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(85px);
+    padding: 3% 5%;
+}
+
+a, p, h1, h2, h3, button, input{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.glass{
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    border: 2px solid rgba(181, 181, 181, 0.404);
+    padding: 2%;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+}
+header > .left{
+    width: 20%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(8px);
+    border-radius: 100px;
+    padding: 0 20px;
+    color: white;
+}
+.search > p{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.832);
+}
+header > .right{
+    width: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
