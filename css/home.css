@@ -1,0 +1,128 @@
+main{
+    width: 100%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.side-bar{
+    width: 23%;
+}
+
+.trailers{
+    background-color: rgba(255, 255, 255, 0.063);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    border: 1.5px solid rgba(255, 255, 255, 0.188);
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.144);
+}
+
+.trailers > h2{
+    margin: 0;
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.trailer-card1{
+    background-image: url("../images/spider-man.jpg");
+    background-size: cover;
+    height: 17%;
+    background-position: bottom center;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+
+.trailer-card2{
+    background-image: url("../images/aot.png");
+    background-size: cover;
+    height: 17%;
+    background-position: bottom center;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    margin-top: 20px;
+}
+
+
+.gradient-line{
+    background-color: rgba(43, 43, 43, 0.296);
+    backdrop-filter: blur(10px);
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+.gradient-line > p{
+    margin: 0;
+}
+
+.trailer-play-btn{
+    background-color: rgba(255, 255, 255, 0.296);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;
+}
+
+
+.continue{
+    background-color: rgba(255, 255, 255, 0.063);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    border: 1.5px solid rgba(255, 255, 255, 0.188);
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.144);
+    margin-top: 7%;
+}
+
+.continue > h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.conti-line1, .conti-line2, .conti-line3{
+    display: flex;
+    height: 8%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+}
+.conti-line1 > img{
+    height: 100%;
+    width: 29%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    border: 1.5px solid rgba(255, 255, 255, 0.188);
+    box-shadow: 0 0 10px rgba(134, 134, 134, 0.144);
+}
+.conti-line1 > .content > .seria{
+    font-size: 14px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.786);
+}
+
+.conti-line1 > .content > .name{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.conti-play-btn{
+    background-color: rgba(255, 255, 255, 0.296);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;
+    margin-left: 22px;
+}
+
+
+
+.main-content{
+    width: 73%;
+}
