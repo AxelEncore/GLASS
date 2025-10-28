@@ -245,9 +245,22 @@ h1{
 .trand-card1{
     background-image: linear-gradient(rgba(56, 13, 13, 0.358), rgba(74, 19, 19, 0.285)),  url("../images/chel-pauk.webp");
 }
+.trand-card2{
+    background-image: linear-gradient(rgba(56, 13, 13, 0.358), rgba(74, 19, 19, 0.285)),  url("../images/chel.jpg");
+}
+
+.trand-card3{
+    background-image: linear-gradient(rgba(56, 13, 13, 0.358), rgba(74, 19, 19, 0.285)),  url("../images/mc.jpeg");
+}
+
+.trand-card4{
+    background-image: linear-gradient(rgba(56, 13, 13, 0.358), rgba(74, 19, 19, 0.285)),  url("../images/shrek.webp");
+}
+
 
 .trand-card1, .trand-card2, .trand-card3, .trand-card4{
     background-size: cover;
+    background-position: bottom center;
     border-radius: 20px;
     border: 1.5px solid rgba(255, 255, 255, 0.188);
     height: 100%;
@@ -259,6 +272,7 @@ h1{
 .trands .left{
     margin-left: 10%;
     margin-bottom: 10%;
+    width: 60%;
 }
 
 .trands .left > .ganre{
@@ -271,4 +285,39 @@ h1{
     margin: 0;
     width: fit-content;
     font-size: 14px;
+}
+.trands .left > h3{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.trands .left > .desc{
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size: 12px;
+}
+.trands .left > a{
+    width: fit-content;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.trands .right{
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+.trands-play-btn{
+    background-color: rgba(255, 255, 255, 0.379);
+    backdrop-filter: blur(10px);
+    padding: 13px 11px;
+    border-radius: 100px;
+    color: white;
+    border: 1.5px solid rgba(255, 255, 255, 0.188);
+    transition: all 0.2s ease;
 }
